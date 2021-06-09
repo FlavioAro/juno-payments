@@ -1,0 +1,31 @@
+* {
+    outline: none !important;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+a * {
+    cursor: pointer !important;
+}
+
+body {
+    background-color: #eee !important;
+}
+
+svg {
+    flex-shrink: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.label-custom {
+    color: #2c2c31;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    margin-bottom: 8px;
+}
